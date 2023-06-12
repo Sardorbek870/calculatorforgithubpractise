@@ -1,5 +1,6 @@
 package com.company.calculatorapp;
 
+// Service qismi sizga bir yoshlikni eslaysiz.
 
 import java.util.Scanner;
 
