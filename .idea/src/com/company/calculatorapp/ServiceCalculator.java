@@ -1,14 +1,12 @@
 package com.company.calculatorapp;
 
 public class ServiceCalculator {
-    public void add(double number1, double number2) {
-        //todo
+    public double add(double number1, double number2) {
         System.out.println("add method");
-
+        return number1 + number2;
     }
 
     public void subtract(double number1, double number2) {
-        //todo
         System.out.println("subtract method ");
     }
 

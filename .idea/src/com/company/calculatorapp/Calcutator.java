@@ -11,12 +11,8 @@ public class Calcutator {
         Scanner scannerString = new Scanner(System.in);
         Scanner scannerDouble = new Scanner(System.in);
 
-
         while(true){
             try {
-                System.out.println("Enter first number :");
-                double number1 = scannerDouble.nextDouble();
-
                 System.out.println("""
                         choose a operation :
                         1. addition
@@ -25,6 +21,8 @@ public class Calcutator {
                         4. divition
                         """);
                 String option = scannerString.nextLine();
+                System.out.println("Enter first number :");
+                double number1 = scannerDouble.nextDouble();
                 System.out.println("enter second number ;");
                 double number2 = scannerDouble.nextDouble();
 
@@ -39,7 +37,6 @@ public class Calcutator {
                 if(!choice.toLowerCase().trim().equals("yes")){
                     break;
                 }
-
 
             }catch ( Exception e){
                 System.out.println(e.getMessage());
